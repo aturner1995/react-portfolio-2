@@ -72,7 +72,6 @@ const Resume = () => {
             </Col>
             <Col lg={9}>
                 <VerticalTimeline>
-                    {console.log(data.work)}
                     {data.experience.map((experience, index) => (
                         <ExperienceCard
                             key={`experience-${index}`}
@@ -89,7 +88,7 @@ const Resume = () => {
                 </Col>
                 <Col lg={9}>
                     <VerticalTimeline>
-                        {console.log(data.work)}
+
                         {data.education.map((education, index) => (
                             <EducationCard
                                 key={`education-${index}`}
