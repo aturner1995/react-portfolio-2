@@ -88,6 +88,22 @@ const data = {
           deployedSite: 'https://www.aaron-turner.dev/blog',
           sourceCode: 'https://github.com/aturner1995/react-portfolio',
         },
+        {
+          title: 'Social Network API',
+          images: ['/images/api-1.PNG', '/images/api-1.PNG'],
+          description: 'An API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.',
+          skills: ['Mongoose', 'Express', 'MongoDB', 'Node.js'],
+          deployedSite: 'https://github.com/aturner1995/social-network-api',
+          sourceCode: 'https://github.com/aturner1995/social-network-api',
+        },
+        {
+          title: 'Tech BLOG',
+          images: ['/images/tech-blog1.png', '/images/tech-blog2.png'],
+          description: `A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other posts.`,
+          skills: ['Handelbars', 'Express', 'MySQL', 'Node.js'],
+          deployedSite: 'https://github.com/aturner1995/tech-blog-MVC',
+          sourceCode: 'https://pacific-dusk-25944.herokuapp.com/',
+        },
       ],
       education: [
         {
