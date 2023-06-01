@@ -1,0 +1,204 @@
+.nav-tabs {
+    background-color: #fe8f73;
+}
+
+.nav-tabs .navbar-brand {
+    margin-left: 1.5rem;
+}
+
+.nav-tabs.navbar {
+    border-bottom: none;
+}
+
+.nav-tabs .nav-link {
+    color: white;
+    text-decoration: none !important;
+    font-size: 1rem;
+}
+
+.nav-tabs .nav-link:hover {
+    transform: scale(1.05);
+    border-color: transparent !important;
+    color: white;
+}
+
+.nav-tabs .nav-link.active {
+    color: white !important;
+    background-color: transparent !important;
+    border-color: transparent !important;
+    text-decoration: underline !important;
+}
+
+.nav-tabs .nav-link.active:hover {
+    transform: none;
+}
+
+.nav-tabs .logo:hover {
+    transform: scale(1.05);
+}
+
+.nav-tabs .prime-custom:hover {
+    transform: scale(1.1);
+}
+
+.left {
+    background-color: #fe8f73;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.right {
+    background-color: #fe8f73;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.headshot {
+    display: flex;
+    justify-content: center !important;
+    text-align: center !important;
+}
+
+.headshot-small {
+    border-radius: 50%;
+    background-color: #ff734f;
+}
+
+.navbar.navbar-default {
+    border-bottom: 0;
+}
+
+.small-screen {
+    display: none;
+}
+
+h1 {
+    font-size: 300% !important;
+}
+
+.row {
+    --bs-gutter-x: 0 !important;
+}
+
+.awards {
+    background-color: #292735;
+    margin: 0 !important;
+}
+
+.background-text {
+    text-align: justify;
+}
+
+.bold-text {
+    color: #fe8f73;
+}
+
+.image {
+    position: relative;
+    overflow: hidden;
+}
+
+.mainImage {
+    z-index: 1;
+}
+
+.secondImage {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    display: none;
+}
+
+.image:hover .secondImage {
+    opacity: 1;
+    display: block;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.image:hover .mainImage {
+    opacity: 0;
+    display: block;
+}
+
+.prime-custom-2 {
+    background-color: #ff734f !important;
+    color: white !important;
+    border: 0 !important;
+}
+
+.prime-custom-2:hover {
+    background-color: #fe8f73 !important;
+}
+
+.project-card:hover {
+    transform: scale(1.02);
+}
+
+.skills {
+    border: #292735 solid 1px;
+    border-radius: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+.skills:hover {
+    background-color: #292735;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 0 5px #292735;
+}
+
+.card-text {
+    white-space: normal;
+}
+
+.subtitle {
+    color: #ff734f !important;
+}
+
+.prime-custom-2 {
+    background-color: #ff734f !important;
+    color: white !important;
+    border: 0 !important;
+}
+
+.footer {
+    background-color: #fe8f73;
+    color: white;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 650px) {
+    .right {
+        display: none;
+    }
+
+    .small-screen {
+        display: flex;
+        position: absolute;
+        left: 64%;
+        top: 68px;
+    }
+
+    .left {
+        justify-content: flex-start;
+    }
+}
+
+
+@media (max-width: 360px) {
+
+    .small-screen {
+        display: none
+    }
+}
