@@ -35,6 +35,7 @@ const Contact = () => {
   };
 
   return (
+    // Render the form on the page
     <div className='mx-5'>
       <h2>Contact Me</h2>
       <Form onSubmit={handleSubmit}>
