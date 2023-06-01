@@ -77,7 +77,7 @@ const Contact = () => {
             isInvalid={!!errors.email}
           />
           <Form.Control.Feedback type="invalid">{errors.email}</Form.Control.Feedback>
-        </Form.Group>
+        </Form.Group> 
 
         <Form.Group controlId="formMessage">
           <Form.Label>Message</Form.Label>
